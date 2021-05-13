@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.googlemaps {
+  width: 80% !important;
+  height: 60% !important;
+  margin-top: 10px !important;
+  margin-left: 10% !important;
+}
+.input .location-search {
+  width: 50% !important;
+  height: 25px !important;
+}
+.mapcontainer {
+  margin: 20px;
+  padding: 10px;
+}
+.GooGleMap-1 {
+  width: 80% !important;
+  height: 60% !important;
+  margin-top: 10px !important;
+}
+.GooGleMap-1-Container {
+  margin-top: 20px !important;
+  margin-left: 10% !important;
+  margin-bottom: 30px !important;
+}
+.GooGleMap-2 {
+  width: 80% !important;
+  height: 70% !important;
+  margin-bottom: 10px !important;
+}
+.GooGleMap-2-Conatiner {
+  margin-left: 10px;
+  margin: 1% 0 0 8%;
+}
+.Infowindow{
+  font-size: 12px;
+}
