@@ -161,7 +161,7 @@ function GoogleMap(props) {
   );
 }
 
-const LoadingContainer = (props) => <div>Fancy loading container!</div>;
+const LoadingContainer = (props) => <div>loading container!</div>;
 
 export default GoogleApiWrapper({
   apiKey: REACT_APP_MAPAPI_KEY,
