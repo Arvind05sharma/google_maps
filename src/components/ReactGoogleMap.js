@@ -19,11 +19,6 @@ const containerStyle = {
   height: "420px",
 };
 
-const divStyle = {
-  background: `white`,
-  border: `1px solid #ccc`,
-  padding: 15,
-};
 
 function ReactGoogleMap() {
   const { isLoaded } = useJsApiLoader({

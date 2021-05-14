@@ -155,6 +155,7 @@ function GoogleMap(props) {
           position={mapCenter}
           onDragend={onMarkerDragEnd}
           draggable={true}
+          onInfoWindowClose={onInfoWindowClose}
         ></Marker>
       </Map>
     </div>

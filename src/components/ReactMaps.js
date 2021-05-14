@@ -51,13 +51,11 @@ class LocationSearchModal extends React.Component {
               position.coords.longitude
             ).then(
               (response) => {
-                console.log(response);
                 const address = response.results[0].formatted_address,
                   addressArray = response.results[0].address_components,
                   city = this.getCity(addressArray),
                   area = this.getArea(addressArray),
                   state = this.getState(addressArray);
-                console.log("city", city, area, state);
                 this.setState({
                   address: address ? address : "",
                   area: area ? area : "",
@@ -160,7 +158,6 @@ class LocationSearchModal extends React.Component {
   };
 
   onPlaceSelected = (place) => {
-    console.log("plc", place);
     const address = place.formatted_address,
       addressArray = place.address_components,
       city = this.getCity(addressArray),
@@ -168,8 +165,6 @@ class LocationSearchModal extends React.Component {
       state = this.getState(addressArray),
       latValue = place.geometry.location.lat(),
       lngValue = place.geometry.location.lng();
-    console.log("latvalue", latValue);
-    console.log("lngValue", lngValue);
     // Set these values in the state.
     this.setState({
       address: address ? address : "",
